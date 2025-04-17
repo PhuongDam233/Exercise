@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 , maximum-scale=1.0, user-scalable=0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title></title>
+
+    <meta name="title" content="" />
+    <meta name="description" content="" />
+    <meta name="keyword" content="" />
+
+    <link rel="canonical" href="" />
+    <link rel="icon" href="" />
+
+    <!-- Meta Tag Facebook -->
+    <meta property="og:locale" content="en" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:image" content="" />
+
+    <!-- Meta Tag Twitter -->
+    <meta name="twitter:card" content="" />
+    <meta name="twitter:site" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="" />
+
+    <style>
+      /* CSS Loading Here */
+    </style>
+
+    <link rel="stylesheet" href="dest/style.min.css" />
+    <link rel="stylesheet" href="dest/fonts.css" />
+  </head>
+
+  <body class="aboutpage">
+    <div class="announce-bar">
+      <div class="container --center">
+        <ul class="announce__list --center">
+          <li>About Us</li>
+          <li>My Account</li>
+          <li>Wishlist</li>
+          <li>Order Tracking</li>
+        </ul>
+        <p>100% Secure delivery without contacting the courier</p>
+        <div class="announce__cta --center">
+          <div class="announce__cta-contact --center">
+            <p>Need help? Call Us:</p>
+            <p><a href="tel:+ 1800 900">+ 1800 900</a></p>
+          </div>
+          <div class="announce__cta-lang" id="dropdown-id-1">
+            <form action="/" class="formfilter">
+              <div class="formgroup dropdown-cta">
+                <select class="form-control" name="langlimit" id="langlimit">
+                  <option value="english">English</option>
+                  <option value="vietnamese">Vietnamese</option>
+                </select>
+              </div>
+            </form>
+          </div>
+          <div class="announce__cta-deno" id="dropdown-id-2">
+            <form action="/" class="formfilter">
+              <div class="formgroup dropdown-cta">
+                <select
+                  class="form-control"
+                  name="currencylimit"
+                  id="currencylimit"
+                >
+                  <option value="USD">USD</option>
+                  <option value="VND">VND</option>
+                </select>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header class="header">
+      <div class="container --center">
+        <div class="header__top --center">
+          <div class="header__btnmenu">
+            <span></span>
+          </div>
+          <a href="./" class="header__logo">
+            <img src="./img/sgv/logo.svg" alt="logo-shop" />
+          </a>
+          <div class="header__center --center">
+            <form action="/" class="formfilter">
+              <div class="formgroup">
+                <select
+                  class="form-control"
+                  name="categorieslimit"
+                  id="categorieslimit"
+                >
+                  <option value="all categories">All Categories</option>
+                  <option value="milks & dairies">Milks & Dairies</option>
+                  <option value="clothing">Clothing</option>
+                  <option value="pet foods">Pet Foods</option>
+                  <option value="baking material">Baking material</option>
+                  <option value="fresh fruit">Fresh Fruit</option>
+                </select>
+              </div>
+            </form>
+            <form action="#" method="#" id="formsearchjs" class="formsearch">
+              <input
+                type="text"
+                id="subscribe"
+                name="subscribe"
+                placeholder="Search for items..."
+                class="textplaceholder"
+              />
+              <img src="./img/sgv/search.svg" alt="search-icon" />
+            </form>
+          </div>
+          <div class="header__location dropdown-cta">
+            <form action="/" class="formfilter">
+              <div class="formgroup">
+                <img src="./img/sgv/location.svg" alt="location-icon" />
+                <select
+                  class="form-control"
+                  name="locationlimit"
+                  id="locationlimit"
+                >
+                  <option value="your location">Your Location</option>
+                  <option value="new york">New York</option>
+                  <option value="times square">Clothing</option>
+                  <option value="washington dc">Washington DC</option>
+                  <option value="las vegas strip">Las Vegas Strip</option>
+                </select>
+              </div>
+            </form>
+          </div>
+          <div class="header__right --center">
+            <a href="#" class="header__right-item --center">
+              <img src="./img/sgv/heart.svg" alt="heart-svg" />
+              <p>Wishlist</p>
+            </a>
+            <a href="./cart.html" class="header__right-item --center">
+              <img src="./img/sgv/cart.svg" alt="cart-svg" />
+              <p>Cart</p>
+            </a>
+            <a
+              href="./register.html"
+              class="header__right-item btnaccount --center"
+            >
+              <img src="./img/sgv/account.svg" alt="account-svg" />
+              Account
+            </a>
+          </div>
+        </div>
+        <div class="header__bottom --center">
+          <div class="categories dropdown-cta">
+            <div class="current --center">
+              <img src="./img/sgv/square.svg" alt="square-svg" />
+              <span>Browse All Categories</span>
+              <img
+                class="down-arrow"
+                src="./img/sgv/arrow.svg"
+                alt="current_lang"
+              />
+            </div>
+          </div>
+          <ul class="header__bottom-nav --center">
+            <li>
+              <a href="#deals"
+                ><img src="./img/sgv/hot.svg" alt="hot-svg" />Deals</a
+              >
+            </li>
+            <li>
+              <a href="./index.html"
+                >Home <img src="./img/sgv/arrow.svg" alt="arrow-svg"
+              /></a>
+            </li>
+            <li><a href="./about.html">About</a></li>
+            <li>
+              <a href="./shop.html"
+                >Shop <img src="./img/sgv/arrow.svg" alt="arrow-svg"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                >Vendors <img src="./img/sgv/arrow.svg" alt="arrow-svg"
+              /></a>
+            </li>
+            <li>
+              <a href="./blog.html"
+                >Blog <img src="./img/sgv/arrow.svg" alt="arrow-svg"
+              /></a>
+            </li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+          <div class="box__hotline">
+            <img src="./img/sgv/headphone.svg" alt="headphone-svg" />
+            <div class="content">
+              <span class="number">1900 - 8888</span>
+              <span class="desc">24/7 Support Center</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- BREADCRUMB -->
+    <nav aria-label="breadcrumb">
+      <div class="container">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="./index.html">
+              <img src="./img/sgv/icon-home.svg" alt="icon-home" />Home</a
+            >
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">About</li>
+        </ol>
+      </div>
+    </nav>
+
+    <!-- MENUMOBILE -->
+    <nav class="menumobile">
+      <ul class="header__bottom-nav">
+        <li>
+          <a href="#"><img src="./img/sgv/hot.svg" alt="hot-svg" />Deals</a>
+        </li>
+        <li>
+          <a href="#">Home <img src="./img/sgv/arrow.svg" alt="arrow-svg" /></a>
+        </li>
+        <li><a href="#">About</a></li>
+        <li>
+          <a href="#">Shop <img src="./img/sgv/arrow.svg" alt="arrow-svg" /></a>
+        </li>
+        <li>
+          <a href="#"
+            >Vendors <img src="./img/sgv/arrow.svg" alt="arrow-svg"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            >Mega menu <img src="./img/sgv/arrow.svg" alt="arrow-svg"
+          /></a>
+        </li>
+        <li>
+          <a href="#">Blog <img src="./img/sgv/arrow.svg" alt="arrow-svg" /></a>
+        </li>
+        <li>
+          <a href="#"
+            >Pages <img src="./img/sgv/arrow.svg" alt="arrow-svg"
+          /></a>
+        </li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <main class="main">
+      <section class="scwelcome">
+        <div class="container --center">
+          <div class="scwelcome__img">
+            <img src="./img/about-1.jpg" alt="about-1-img" />
+          </div>
+          <div class="scwelcome__content">
+            <h2 class="heading --fs-banner">Welcome to Nest</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate id est laborum.
+            </p>
+            <p>
+              Ius ferri velit sanctus cu, sed at soleat accusata. Dictas prompta
+              et Ut placerat legendos interpre.Donec vitae sapien ut libero
+              venenatis faucibus. Nullam quis ante Etiam sit amet orci eget.
+              Quis commodo odio aenean sed adipiscing. Turpis massa tincidunt
+              dui ut ornare lectus. Auctor elit sed vulputate mi sit amet.
+              Commodo consequat. Duis aute irure dolor in reprehenderit in
+              voluptate id est laborum.
+            </p>
+            <div class="welcome__carousel">
+              <img src="./img/about-2.jpg" alt="about-2-img" />
+              <img src="./img/about-3.jpg" alt="about-3-img" />
+              <img src="./img/about-4.jpg" alt="about-4-img" />
+              <img src="./img/about-2.jpg" alt="about-2-img" />
+              <img src="./img/about-3.jpg" alt="about-3-img" />
+              <img src="./img/about-4.jpg" alt="about-4-img" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="scprovide">
+        <div class="container">
+          <h2 class="heading --fs-banner --center">What We Provide?</h2>
+          <div class="scprovide__list">
+            <!-- item 1 -->
+            <div class="scprovide__list-item">
+              <img src="./img/icon-sale.png" alt="icon-sale" />
+              <div class="content">
+                <h3 class="heading --fs-24">Best Prices & Offers</h3>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form
+                </p>
+                <a href="#" class="btn btnmore">Read more</a>
+              </div>
+            </div>
+            <!-- item 2 -->
+            <div class="scprovide__list-item">
+              <img src="./img/icon-assortment.png" alt="icon-assortment" />
+              <div class="content">
+                <h3 class="heading --fs-24">Wide Assortment</h3>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form
+                </p>
+                <a href="#" class="btn btnmore">Read more</a>
+              </div>
+            </div>
+            <!-- item 3 -->
+            <div class="scprovide__list-item">
+              <img src="./img/icon-delivery.png" alt="icon-delivery" />
+              <div class="content">
+                <h3 class="heading --fs-24">Free Delivery</h3>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form
+                </p>
+                <a href="#" class="btn btnmore">Read more</a>
+              </div>
+            </div>
+            <!-- item 4 -->
+            <div class="scprovide__list-item">
+              <img src="./img/icon-return.png" alt="icon-return" />
+              <div class="content">
+                <h3 class="heading --fs-24">Easy Returns</h3>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form
+                </p>
+                <a href="#" class="btn btnmore">Read more</a>
+              </div>
+            </div>
+            <!-- item 5 -->
+            <div class="scprovide__list-item">
+              <img src="./img/icon-satisfaction.png" alt="icon-satisfaction" />
+              <div class="content">
+                <h3 class="heading --fs-24">100% Satisfaction</h3>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form
+                </p>
+                <a href="#" class="btn btnmore">Read more</a>
+              </div>
+            </div>
+            <!-- item 6 -->
+            <div class="scprovide__list-item">
+              <img src="./img/icon-deal.png" alt="icon-deal" />
+              <div class="content">
+                <h3 class="heading --fs-24">Great Daily Deal</h3>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form
+                </p>
+                <a href="#" class="btn btnmore">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="scarticle">
+        <div class="container --center">
+          <div class="scarticle__img">
+            <img src="./img/about-5.jpg" alt="about-5-img" />
+          </div>
+          <div class="scarticle__content">
+            <span class="title">Our performance</span>
+            <h2 class="heading --fs-article">
+              Your Partner for e- commerce grocery solution
+            </h2>
+            <p>
+              Ed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto
+            </p>
+
+            <p>
+              Pitatis et quasi architecto beatae vitae dicta sunt explicabo.
+              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+              aut fugit, sed quia
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="scmission">
+        <div class="container --center">
+          <div class="scmission__item">
+            <h3 class="heading --fs-title">Who we are</h3>
+            <p class="desc">
+              Volutpat diam ut venenatis tellus in metus. Nec dui nunc mattis
+              enim ut tellus eros donec ac odio orci ultrices in. ellus eros
+              donec ac odio orci ultrices in.
+            </p>
+          </div>
+          <div class="scmission__item">
+            <h3 class="heading --fs-title">Our history</h3>
+            <p class="desc">
+              Volutpat diam ut venenatis tellus in metus. Nec dui nunc mattis
+              enim ut tellus eros donec ac odio orci ultrices in. ellus eros
+              donec ac odio orci ultrices in.
+            </p>
+          </div>
+          <div class="scmission__item">
+            <h3 class="heading --fs-title">Our mission</h3>
+            <p class="desc">
+              Volutpat diam ut venenatis tellus in metus. Nec dui nunc mattis
+              enim ut tellus eros donec ac odio orci ultrices in. ellus eros
+              donec ac odio orci ultrices in.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section
+        class="scbannerimg"
+        style="background-image: url('img/banner-about.jpg')"
+      >
+        <div class="container --center">
+          <div class="scbannerimg__item">
+            <span class="number">0+</span>
+            <span class="content">Glorious years</span>
+          </div>
+          <div class="scbannerimg__item">
+            <span class="number">0+</span>
+            <span class="content">Happy clients</span>
+          </div>
+          <div class="scbannerimg__item">
+            <span class="number">0+</span>
+            <span class="content">Projects complete</span>
+          </div>
+          <div class="scbannerimg__item">
+            <span class="number">0+</span>
+            <span class="content">Team advisor</span>
+          </div>
+          <div class="scbannerimg__item">
+            <span class="number">0+</span>
+            <span class="content">Products Sale</span>
+          </div>
+        </div>
+      </section>
+      <section class="scourteam">
+        <div class="container">
+          <h2 class="heading --fs-banner">Our Team</h2>
+          <div class="scourteam__content --center">
+            <div class="scourteam__content-article">
+              <span class="title">Our Team</span>
+              <h3 class="heading --fs-article">Meet Our Expert Team</h3>
+              <p>
+                Proin ullamcorper pretium orci. Donec necscele risque leo. Nam
+                massa dolor imperdiet neccon sequata congue idsem. Maecenas
+                malesuada faucibus finibus.
+              </p>
+              <p>
+                Proin ullamcorper pretium orci. Donec necscele risque leo. Nam
+                massa dolor imperdiet neccon sequata congue idsem. Maecenas
+                malesuada faucibus finibus.
+              </p>
+              <a href="#" class="btn btnviewall --green">View All Members</a>
+            </div>
+            <div class="scourteam__content-img --center">
+              <div class="img-item">
+                <div class="imgthumb">
+                  <img src="./img/team-1.jpg" alt="team-1" />
+                </div>
+                <div class="infor">
+                  <h4 class="heading --fs-24">H. Merinda</h4>
+                  <span class="position">CEO & Co-Founder</span>
+                  <div class="link-social">
+                    <!-- svg facebook -->
+                    <a href="https://www.facebook.com/">
+                      <svg
+                        fill="#3BB77E"
+                        version="1.1"
+                        id="Capa_1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="64px"
+                        height="64px"
+                        viewBox="0 0 96.227 96.227"
+                        xml:space="preserve"
+                        stroke="#3BB77E"
+                      >
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g
+                          id="SVGRepo_tracerCarrier"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></g>
+                        <g id="SVGRepo_iconCarrier">
+                          <g>
+                            <path
+                              d="M73.099,15.973l-9.058,0.004c-7.102,0-8.477,3.375-8.477,8.328v10.921h16.938l-0.006,17.106H55.564v43.895H37.897V52.332 h-14.77V35.226h14.77V22.612C37.897,7.972,46.84,0,59.9,0L73.1,0.021L73.099,15.973L73.099,15.973z"
+                            ></path>
+                          </g>
+                        </g>
+                      </svg>
+                    </a>
+                    <!-- svg twitter -->
+                    <a href="https://x.com/?lang=vi">
+                      <svg
+                        fill="#3BB77E"
+                        version="1.1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="64px"
+                        height="64px"
+                        viewBox="0 0 512 512"
+                        xml:space="preserve"
+                      >
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g
+                          id="SVGRepo_tracerCarrier"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></g>
+                        <g id="SVGRepo_iconCarrier">
+                          <g id="7935ec95c421cee6d86eb22ecd12f847">
+                            <path
+                              style="display: inline"
+                              d="M459.186,151.787c0.203,4.501,0.305,9.023,0.305,13.565 c0,138.542-105.461,298.285-298.274,298.285c-59.209,0-114.322-17.357-160.716-47.104c8.212,0.973,16.546,1.47,25.012,1.47 c49.121,0,94.318-16.759,130.209-44.884c-45.887-0.841-84.596-31.154-97.938-72.804c6.408,1.227,12.968,1.886,19.73,1.886 c9.55,0,18.816-1.287,27.617-3.68c-47.955-9.633-84.1-52.001-84.1-102.795c0-0.446,0-0.882,0.011-1.318 c14.133,7.847,30.294,12.562,47.488,13.109c-28.134-18.796-46.637-50.885-46.637-87.262c0-19.212,5.16-37.218,14.193-52.7 c51.707,63.426,128.941,105.156,216.072,109.536c-1.784-7.675-2.718-15.674-2.718-23.896c0-57.891,46.941-104.832,104.832-104.832 c30.173,0,57.404,12.734,76.525,33.102c23.887-4.694,46.313-13.423,66.569-25.438c-7.827,24.485-24.434,45.025-46.089,58.002 c21.209-2.535,41.426-8.171,60.222-16.505C497.448,118.542,479.666,137.004,459.186,151.787z"
+                            ></path>
+                          </g>
+                        </g>
+                      </svg>
+                    </a>
+                    <!-- svg instagram -->
+                    <a href="https://www.instagram.com/">
+                      <svg
+                        width="64px"
+                        height="64px"
+                        viewBox="0 0 20 20"
+                        version="1.1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        fill="#3BB77E"
+                      >
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g
+                          id="SVGRepo_tracerCarrier"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></g>
+                        <g id="SVGRepo_iconCarrier">
+                          <title>instagram [#3BB77E]</title>
+                          <desc>Created with Sketch.</desc>
+                          <defs></defs>
+                          <g
+                            id="Page-1"
+                            stroke="none"
+                            stroke-width="1"
+                            fill="none"
+                            fill-rule="evenodd"
+                          >
+                            <g
+                              id="Dribbble-Light-Preview"
+                              transform="translate(-340.000000, -7439.000000)"
+                              fill="#3BB77E"
+                            >
+                              <g
+                                id="icons"
+                                transform="translate(56.000000, 160.000000)"
+                              >
+                                <path
+                                  d="M289.869652,7279.12273 C288.241769,7279.19618 286.830805,7279.5942 285.691486,7280.72871 C284.548187,7281.86918 284.155147,7283.28558 284.081514,7284.89653 C284.035742,7285.90201 283.768077,7293.49818 284.544207,7295.49028 C285.067597,7296.83422 286.098457,7297.86749 287.454694,7298.39256 C288.087538,7298.63872 288.809936,7298.80547 289.869652,7298.85411 C298.730467,7299.25511 302.015089,7299.03674 303.400182,7295.49028 C303.645956,7294.859 303.815113,7294.1374 303.86188,7293.08031 C304.26686,7284.19677 303.796207,7282.27117 302.251908,7280.72871 C301.027016,7279.50685 299.5862,7278.67508 289.869652,7279.12273 M289.951245,7297.06748 C288.981083,7297.0238 288.454707,7296.86201 288.103459,7296.72603 C287.219865,7296.3826 286.556174,7295.72155 286.214876,7294.84312 C285.623823,7293.32944 285.819846,7286.14023 285.872583,7284.97693 C285.924325,7283.83745 286.155174,7282.79624 286.959165,7281.99226 C287.954203,7280.99968 289.239792,7280.51332 297.993144,7280.90837 C299.135448,7280.95998 300.179243,7281.19026 300.985224,7281.99226 C301.980262,7282.98483 302.473801,7284.28014 302.071806,7292.99991 C302.028024,7293.96767 301.865833,7294.49274 301.729513,7294.84312 C300.829003,7297.15085 298.757333,7297.47145 289.951245,7297.06748 M298.089663,7283.68956 C298.089663,7284.34665 298.623998,7284.88065 299.283709,7284.88065 C299.943419,7284.88065 300.47875,7284.34665 300.47875,7283.68956 C300.47875,7283.03248 299.943419,7282.49847 299.283709,7282.49847 C298.623998,7282.49847 298.089663,7283.03248 298.089663,7283.68956 M288.862673,7288.98792 C288.862673,7291.80286 291.150266,7294.08479 293.972194,7294.08479 C296.794123,7294.08479 299.081716,7291.80286 299.081716,7288.98792 C299.081716,7286.17298 296.794123,7283.89205 293.972194,7283.89205 C291.150266,7283.89205 288.862673,7286.17298 288.862673,7288.98792 M290.655732,7288.98792 C290.655732,7287.16159 292.140329,7285.67967 293.972194,7285.67967 C295.80406,7285.67967 297.288657,7287.16159 297.288657,7288.98792 C297.288657,7290.81525 295.80406,7292.29716 293.972194,7292.29716 C292.140329,7292.29716 290.655732,7290.81525 290.655732,7288.98792"
+                                  id="instagram-[#3BB77E]"
+                                ></path>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                    </a>
+                    <!-- youtube -->
+                    <a href="https://www.youtube.com/">
+                      <svg
+                        width="64px"
+                        height="64px"
+                        viewBox="0 -3 20 20"
+                        version="1.1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        fill="#3BB77E"
+                      >
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g
+                          id="SVGRepo_tracerCarrier"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></g>
+                        <g id="SVGRepo_iconCarrier">
+                          <title>youtube [#3BB77E]</title>
+                          <desc>Created with Sketch.</desc>
+                          <defs></defs>
+                          <g
+                            id="Page-1"
+                            stroke="none"
+                            stroke-width="1"
+                            fill="none"
+                            fill-rule="evenodd"
+                          >
+                            <g
+                              id="Dribbble-Light-Preview"
+                              transform="translate(-300.000000, -7442.000000)"
+                              fill="#3BB77E"
+                            >
+                              <g
+                                id="icons"
+                                transform="translate(56.000000, 160.000000)"
+                              >
+                                <path
+                                  d="M251.988432,7291.58588 L251.988432,7285.97425 C253.980638,7286.91168 255.523602,7287.8172 257.348463,7288.79353 C255.843351,7289.62824 253.980638,7290.56468 251.988432,7291.58588 M263.090998,7283.18289 C262.747343,7282.73013 262.161634,7282.37809 261.538073,7282.26141 C259.705243,7281.91336 248.270974,7281.91237 246.439141,7282.26141 C245.939097,7282.35515 245.493839,7282.58153 245.111335,7282.93357 C243.49964,7284.42947 244.004664,7292.45151 244.393145,7293.75096 C244.556505,7294.31342 244.767679,7294.71931 245.033639,7294.98558 C245.376298,7295.33761 245.845463,7295.57995 246.384355,7295.68865 C247.893451,7296.0008 255.668037,7296.17532 261.506198,7295.73552 C262.044094,7295.64178 262.520231,7295.39147 262.895762,7295.02447 C264.385932,7293.53455 264.28433,7285.06174 263.090998,7283.18289"
+                                  id="youtube-[#3BB77E]"
+                                ></path>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="img-item">
+                <div class="imgthumb">
+                  <img src="./img/team-2.jpg" alt="team-2.jpg" />
+                </div>
+                <div class="infor">
+                  <h4 class="heading --fs-24">H. Merinda</h4>
+                  <span class="position">CEO & Co-Founder</span>
+                  <div class="link-social">
+                    <!-- svg facebook -->
+                    <a href="https://www.facebook.com/">
+                      <svg
+                        fill="#3BB77E"
+                        version="1.1"
+                        id="Capa_1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="64px"
+                        height="64px"
+                        viewBox="0 0 96.227 96.227"
+                        xml:space="preserve"
+                        stroke="#3BB77E"
+                      >
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g
+                          id="SVGRepo_tracerCarrier"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></g>
+                        <g id="SVGRepo_iconCarrier">
+                          <g>
+                            <path
+                              d="M73.099,15.973l-9.058,0.004c-7.102,0-8.477,3.375-8.477,8.328v10.921h16.938l-0.006,17.106H55.564v43.895H37.897V52.332 h-14.77V35.226h14.77V22.612C37.897,7.972,46.84,0,59.9,0L73.1,0.021L73.099,15.973L73.099,15.973z"
+                            ></path>
+                          </g>
+                        </g>
+                      </svg>
+                    </a>
+                    <!-- svg twitter -->
+                    <a href="https://x.com/?lang=vi">
+                      <svg
+                        fill="#3BB77E"
+                        version="1.1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="64px"
+                        height="64px"
+                        viewBox="0 0 512 512"
+                        xml:space="preserve"
+                      >
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g
+                          id="SVGRepo_tracerCarrier"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></g>
+                        <g id="SVGRepo_iconCarrier">
+                          <g id="7935ec95c421cee6d86eb22ecd12f847">
+                            <path
+                              style="display: inline"
+                              d="M459.186,151.787c0.203,4.501,0.305,9.023,0.305,13.565 c0,138.542-105.461,298.285-298.274,298.285c-59.209,0-114.322-17.357-160.716-47.104c8.212,0.973,16.546,1.47,25.012,1.47 c49.121,0,94.318-16.759,130.209-44.884c-45.887-0.841-84.596-31.154-97.938-72.804c6.408,1.227,12.968,1.886,19.73,1.886 c9.55,0,18.816-1.287,27.617-3.68c-47.955-9.633-84.1-52.001-84.1-102.795c0-0.446,0-0.882,0.011-1.318 c14.133,7.847,30.294,12.562,47.488,13.109c-28.134-18.796-46.637-50.885-46.637-87.262c0-19.212,5.16-37.218,14.193-52.7 c51.707,63.426,128.941,105.156,216.072,109.536c-1.784-7.675-2.718-15.674-2.718-23.896c0-57.891,46.941-104.832,104.832-104.832 c30.173,0,57.404,12.734,76.525,33.102c23.887-4.694,46.313-13.423,66.569-25.438c-7.827,24.485-24.434,45.025-46.089,58.002 c21.209-2.535,41.426-8.171,60.222-16.505C497.448,118.542,479.666,137.004,459.186,151.787z"
+                            ></path>
+                          </g>
+                        </g>
+                      </svg>
+                    </a>
+                    <!-- svg instagram -->
+                    <a href="https://www.instagram.com/">
+                      <svg
+                        width="64px"
+                        height="64px"
+                        viewBox="0 0 20 20"
+                        version="1.1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        fill="#3BB77E"
+                      >
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g
+                          id="SVGRepo_tracerCarrier"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></g>
+                        <g id="SVGRepo_iconCarrier">
+                          <title>instagram [#3BB77E]</title>
+                          <desc>Created with Sketch.</desc>
+                          <defs></defs>
+                          <g
+                            id="Page-1"
+                            stroke="none"
+                            stroke-width="1"
+                            fill="none"
+                            fill-rule="evenodd"
+                          >
+                            <g
+                              id="Dribbble-Light-Preview"
+                              transform="translate(-340.000000, -7439.000000)"
+                              fill="#3BB77E"
+                            >
+                              <g
+                                id="icons"
+                                transform="translate(56.000000, 160.000000)"
+                              >
+                                <path
+                                  d="M289.869652,7279.12273 C288.241769,7279.19618 286.830805,7279.5942 285.691486,7280.72871 C284.548187,7281.86918 284.155147,7283.28558 284.081514,7284.89653 C284.035742,7285.90201 283.768077,7293.49818 284.544207,7295.49028 C285.067597,7296.83422 286.098457,7297.86749 287.454694,7298.39256 C288.087538,7298.63872 288.809936,7298.80547 289.869652,7298.85411 C298.730467,7299.25511 302.015089,7299.03674 303.400182,7295.49028 C303.645956,7294.859 303.815113,7294.1374 303.86188,7293.08031 C304.26686,7284.19677 303.796207,7282.27117 302.251908,7280.72871 C301.027016,7279.50685 299.5862,7278.67508 289.869652,7279.12273 M289.951245,7297.06748 C288.981083,7297.0238 288.454707,7296.86201 288.103459,7296.72603 C287.219865,7296.3826 286.556174,7295.72155 286.214876,7294.84312 C285.623823,7293.32944 285.819846,7286.14023 285.872583,7284.97693 C285.924325,7283.83745 286.155174,7282.79624 286.959165,7281.99226 C287.954203,7280.99968 289.239792,7280.51332 297.993144,7280.90837 C299.135448,7280.95998 300.179243,7281.19026 300.985224,7281.99226 C301.980262,7282.98483 302.473801,7284.28014 302.071806,7292.99991 C302.028024,7293.96767 301.865833,7294.49274 301.729513,7294.84312 C300.829003,7297.15085 298.757333,7297.47145 289.951245,7297.06748 M298.089663,7283.68956 C298.089663,7284.34665 298.623998,7284.88065 299.283709,7284.88065 C299.943419,7284.88065 300.47875,7284.34665 300.47875,7283.68956 C300.47875,7283.03248 299.943419,7282.49847 299.283709,7282.49847 C298.623998,7282.49847 298.089663,7283.03248 298.089663,7283.68956 M288.862673,7288.98792 C288.862673,7291.80286 291.150266,7294.08479 293.972194,7294.08479 C296.794123,7294.08479 299.081716,7291.80286 299.081716,7288.98792 C299.081716,7286.17298 296.794123,7283.89205 293.972194,7283.89205 C291.150266,7283.89205 288.862673,7286.17298 288.862673,7288.98792 M290.655732,7288.98792 C290.655732,7287.16159 292.140329,7285.67967 293.972194,7285.67967 C295.80406,7285.67967 297.288657,7287.16159 297.288657,7288.98792 C297.288657,7290.81525 295.80406,7292.29716 293.972194,7292.29716 C292.140329,7292.29716 290.655732,7290.81525 290.655732,7288.98792"
+                                  id="instagram-[#3BB77E]"
+                                ></path>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                    </a>
+                    <!-- youtube -->
+                    <a href="https://www.youtube.com/">
+                      <svg
+                        width="64px"
+                        height="64px"
+                        viewBox="0 -3 20 20"
+                        version="1.1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        fill="#3BB77E"
+                      >
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g
+                          id="SVGRepo_tracerCarrier"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></g>
+                        <g id="SVGRepo_iconCarrier">
+                          <title>youtube [#3BB77E]</title>
+                          <desc>Created with Sketch.</desc>
+                          <defs></defs>
+                          <g
+                            id="Page-1"
+                            stroke="none"
+                            stroke-width="1"
+                            fill="none"
+                            fill-rule="evenodd"
+                          >
+                            <g
+                              id="Dribbble-Light-Preview"
+                              transform="translate(-300.000000, -7442.000000)"
+                              fill="#3BB77E"
+                            >
+                              <g
+                                id="icons"
+                                transform="translate(56.000000, 160.000000)"
+                              >
+                                <path
+                                  d="M251.988432,7291.58588 L251.988432,7285.97425 C253.980638,7286.91168 255.523602,7287.8172 257.348463,7288.79353 C255.843351,7289.62824 253.980638,7290.56468 251.988432,7291.58588 M263.090998,7283.18289 C262.747343,7282.73013 262.161634,7282.37809 261.538073,7282.26141 C259.705243,7281.91336 248.270974,7281.91237 246.439141,7282.26141 C245.939097,7282.35515 245.493839,7282.58153 245.111335,7282.93357 C243.49964,7284.42947 244.004664,7292.45151 244.393145,7293.75096 C244.556505,7294.31342 244.767679,7294.71931 245.033639,7294.98558 C245.376298,7295.33761 245.845463,7295.57995 246.384355,7295.68865 C247.893451,7296.0008 255.668037,7296.17532 261.506198,7295.73552 C262.044094,7295.64178 262.520231,7295.39147 262.895762,7295.02447 C264.385932,7293.53455 264.28433,7285.06174 263.090998,7283.18289"
+                                  id="youtube-[#3BB77E]"
+                                ></path>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="scbanner">
+        <div class="container">
+          <div class="textbox-slider">
+            <h2 class="heading --fs-banner">
+              Stay home & get your daily needs from our shop
+            </h2>
+            <p>Start You'r Daily Shopping with <a href="#">Nest Mart</a></p>
+            <form action="#" method="post" id="formsubjs" class="formsub">
+              <div class="formgroup">
+                <img src="./img/sgv/send.svg" alt="send-svg" />
+                <input
+                  type="text"
+                  id="subscribe"
+                  name="subscribe"
+                  placeholder="Your emaill address"
+                  class="textplaceholder"
+                />
+                <p class="form-error"></p>
+              </div>
+              <button type="submit" class="btnsub">Subscribe</button>
+            </form>
+          </div>
+          <picture class="slider">
+            <source media="(max-width: 767px)" srcset="./img/banner2-mob.jpg" />
+            <img src="./img/banner2.jpg" alt="banner-img" style="width: 100%" />
+          </picture>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__top">
+          <div class="footer__top-infor">
+            <img class="logo" src="./img/sgv/logo.svg" alt="logo-icon" />
+            <p class="desc">Awesome grocery store website template</p>
+            <div class="infor">
+              <img
+                src="./img/sgv/location-green.svg"
+                alt="location-green-icon"
+              />
+              <span>Address: </span>
+              <p>
+                5171 W Campbell Ave undefined Kent, Utah 53127 United States
+              </p>
+            </div>
+            <div class="infor">
+              <img
+                src="./img/sgv/headphone-green.svg"
+                alt="headphone-green-icon"
+              />
+              <span>Call Us:</span>
+              <p>(+91) - 540-025-124553</p>
+            </div>
+            <div class="infor">
+              <img src="./img/sgv/email-green.svg" alt="email-green-icon" />
+              <span>Email:</span>
+              <p>sale@Nest.com</p>
+            </div>
+            <div class="infor">
+              <img src="./img/sgv/clock-green.svg" alt="clock-green-icon" />
+              <span>Hours:</span>
+              <p>10:00 - 18:00, Mon - Sat</p>
+            </div>
+          </div>
+          <div class="submenu">
+            <h3 class="heading --fs-24">Company</h3>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Delivery Information</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Support Center</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+          <div class="submenu">
+            <h3 class="heading --fs-24">Account</h3>
+            <ul>
+              <li><a href="#">Sign In</a></li>
+              <li><a href="#">View Cart</a></li>
+              <li><a href="#">My Wishlist</a></li>
+              <li><a href="#">Track My Order</a></li>
+              <li><a href="#">Help Ticket</a></li>
+              <li><a href="#">Shipping Details</a></li>
+              <li><a href="#">Compare products</a></li>
+            </ul>
+          </div>
+          <div class="submenu">
+            <h3 class="heading --fs-24">Corporate</h3>
+            <ul>
+              <li><a href="#">Become a Vendor</a></li>
+              <li><a href="#">Affiliate Program</a></li>
+              <li><a href="#">Farm Business</a></li>
+              <li><a href="#">Farm Careers</a></li>
+              <li><a href="#">Our Suppliers</a></li>
+              <li><a href="#">Accessibility</a></li>
+              <li><a href="#">Promotions</a></li>
+            </ul>
+          </div>
+          <div class="submenu">
+            <h3 class="heading --fs-24">Popular</h3>
+            <ul>
+              <li><a href="#">Milk & Flavoured Milk</a></li>
+              <li><a href="#">Butter and Margarine</a></li>
+              <li><a href="#">Eggs Substitutes</a></li>
+              <li><a href="#">Marmalades</a></li>
+              <li><a href="#">Sour Cream and Dips</a></li>
+              <li><a href="#">Tea & Kombucha</a></li>
+              <li><a href="#">Cheese</a></li>
+            </ul>
+          </div>
+          <div class="footer__top-app submenu">
+            <h3 class="heading --fs-24">Install App</h3>
+            <ul>
+              <li>
+                <a href="#"
+                  ><img src="./img/app-store.jpg" alt="app-store-img"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./img/google-play.jpg" alt="google-play-img"
+                /></a>
+              </li>
+            </ul>
+            <p>Secured Payment Gateways</p>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__bottom-left">
+            <p class="copyright">
+              © 2022, <strong>Nest</strong> - HTML Ecommerce Template All rights
+              reserved
+            </p>
+          </div>
+          <div class="footer__bottom-center">
+            <div class="box__hotline">
+              <img src="./img/sgv/headphone.svg" alt="headphone-svg" />
+              <div class="content">
+                <span class="number">1900 - 6666</span>
+                <span class="desc">Working 8:00 - 22:00</span>
+              </div>
+            </div>
+            <div class="box__hotline">
+              <img src="./img/sgv/headphone.svg" alt="headphone-svg" />
+              <div class="content">
+                <span class="number">1900 - 8888</span>
+                <span class="desc">24/7 Support Center</span>
+              </div>
+            </div>
+          </div>
+          <div class="footer__bottom-right">
+            <div class="link-social">
+              <span>Follow Us</span>
+              <a href="https://www.facebook.com/"
+                ><img src="./img/sgv/icon-facebook.svg" alt="icon-facebook"
+              /></a>
+              <a href="https://x.com/?lang=vi"
+                ><img src="./img/sgv/icon-twitter.svg" alt="icon-twitter"
+              /></a>
+              <a href="https://www.instagram.com/">
+                <img src="./img/sgv/icon-instagram.svg" alt="icon-instagram"
+              /></a>
+              <a href="https://www.pinterest.com/">
+                <img src="./img/sgv/icon-pinterest.svg" alt="icon-pinterest"
+              /></a>
+              <a href="https://www.youtube.com/">
+                <img src="./img/sgv/icon-youtube.svg" alt="icon-youtube"
+              /></a>
+            </div>
+            <p>Up to 15% discount on your first subscribe</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="dest/jsmain.min.js"></script>
+    <script type="text/javascript" src="dest/main.js"></script>
+  </body>
+</html>

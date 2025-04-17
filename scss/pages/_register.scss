@@ -1,0 +1,7 @@
+.sclogin {
+  @include xs {
+    .container {
+      flex-direction: column;
+    }
+  }
+}

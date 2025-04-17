@@ -1,0 +1,138 @@
+:root {
+  /* MaxWidth Of Page, Container-Fluid, Container, Gutter*/
+
+  --max-width-page: 2560px;
+  --max-width-container: 1586px;
+  --max-width-container-small: 1348px;
+  --max-width-content: 897px;
+  --gap: 15px;
+  --guiter: 12px;
+
+  /* Colors Variable Demo*/
+  --black-cl: #1e1e1e;
+  --white-cl: #ffffff;
+  --green-cl: #35afa0;
+  --green-bold-cl: #3bb77e;
+  --green-dark-cl: #4b675a;
+  --green-light-cl: #bce3c9;
+  --green-bright-cl: #def9ec;
+  --red-cl: #ea2b0f;
+  --gray-cl: #7e7e7e;
+  --gray-light-cl: #ececec;
+  --gray-bold-cl: #dedfe2;
+  --gray-range-cl: #d6d7d9;
+  --gray-bg-category-cl: #f4f6fa;
+  --gray-time-cmt-cl: #b6b6b6;
+  --blue-cl: #253d4e;
+  --yellow-cl: #fdc040;
+  --pink-bright-cl: #fde0e9;
+  // color label
+  --blue-label-cl: #67bcee;
+  --green-label-cl: #3bb77e;
+  --pink-label-cl: #f74b81;
+  --orange-label-cl: #f59758;
+
+  // Fontsize - Lineheight Variable
+  --fs-h1: 7.2rem;
+  --lh-h1: 7.2rem;
+
+  --fs-h2: 3.2rem;
+  --lh-h2: 3.84rem;
+
+  --fs-h3: 1.6rem;
+  --lh-h3: 1.92rem;
+
+  --fs-32: 3.2rem;
+  --lh-32: 3.84rem;
+
+  --fs-30: 3rem;
+  --lh-30: 2.4rem;
+
+  --fs-26: 2.6rem;
+
+  --fs-24: 2.4rem;
+
+  --fs-20: 2rem;
+  --lh-20: 2.4rem;
+
+  --fs-58: 5.8rem;
+  --lh-58: 5.8rem;
+
+  --fs-banner: 4rem;
+  --lh-banner: 4.8rem;
+
+  --fs-article: 4.8rem;
+  --lh-article: 5.76rem;
+
+  --fs-18: 1.8rem;
+  --fs-17: 1.7rem;
+  --fs-16: 1.6rem;
+  --lh-16: 1.6rem;
+  --ls-16: 0.05rem;
+
+  --fs-14: 1.4rem;
+  --lh-24: 2.4rem;
+  --lh-10: 1rem;
+  --lh-35: 3.5rem;
+
+  --fs-13: 1.3rem;
+  --lh-13: 1.3rem;
+
+  --fs-12: 1.2rem;
+  --lh-12: 1.2rem;
+
+  // General Variable Demo
+  --height-header-top: 125px;
+  --height-header-bottom: 73px;
+  --height-announce: 37px;
+  --height-button-add: 36px;
+  --pd-section: 120px;
+
+  // Timing Transition Variable Demo
+  --duration: 0.3s;
+  --cubic: cubic-bezier(0.59, 0.29, 0.15, 0.93);
+
+  // Responsive
+  @include md {
+    --container-max-width: 1140px;
+  }
+  @include sm {
+    --container-max-width: 960px;
+
+    --fs-h1: 4.6rem;
+    --lh-h1: 4.6rem;
+
+    --fs-30: 2.2rem;
+
+    --fs-banner: 3rem;
+    --lh-banner: 3.5rem;
+
+    --fs-58: 4rem;
+    --lh-58: 4rem;
+
+    --height-header-top: 100px;
+  }
+  @include xs {
+    --max-width-content: 100%;
+    --container-max-width: 720px;
+
+    --fs-h2: 2.8rem;
+    --lh-h2: 3.36rem;
+
+    --fs-body: 1.7rem;
+    --lh-body: 1.9rem;
+
+    --fs-banner: 2.2rem;
+    --lh-banner: 2.2rem;
+
+    --fs-article: 4rem;
+    --lh-article: 4rem;
+
+    --height-header-top: 70px;
+  }
+  @include xxs {
+    --container-max-width: 100%;
+    --fs-h1: 3.5rem;
+    --lh-h1: 3.5rem;
+  }
+}

@@ -1,0 +1,38 @@
+.shoppage {
+  .main {
+    .container-fluid {
+      display: flex;
+      gap: 24px;
+    }
+    .scbanner {
+      .textbox-slider {
+        span {
+          font-size: var(--fs-24);
+          font-family: qm;
+        }
+        p {
+          font-family: lr;
+        }
+      }
+    }
+    .scproduct {
+      margin-bottom: 44px;
+      margin-top: 35px;
+      &__list {
+        margin-top: 20px;
+        display: grid;
+      }
+    }
+    .scbanner {
+      margin-top: 25px;
+    }
+    @include xxs {
+      .scproduct {
+        .contentbox {
+          flex-direction: column-reverse;
+          gap: 15px;
+        }
+      }
+    }
+  }
+}

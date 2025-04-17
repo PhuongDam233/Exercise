@@ -1,0 +1,136 @@
+.contactpage {
+  .schelp {
+    margin-bottom: 50px;
+    .container-small {
+      gap: 43px;
+      align-items: flex-end;
+    }
+    p {
+      font-size: var(--fs-16);
+      line-height: var(--lh-24);
+      font-family: lr;
+    }
+    &__left {
+      h1 {
+        margin-top: 18px;
+        margin-bottom: 25px;
+      }
+      p {
+        &:not(:last-child) {
+          margin-bottom: 25px;
+        }
+      }
+    }
+    &__right {
+      gap: 43px;
+      &-item {
+        display: flex;
+        gap: 24px;
+        flex-direction: column;
+        .itembox {
+          display: flex;
+          gap: 24px;
+          flex-direction: column;
+        }
+      }
+    }
+    @include maxW(1024px) {
+      .container-small {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+    @include xxs {
+      &__right {
+        flex-direction: column;
+      }
+    }
+  }
+  .scmap {
+    .container {
+      position: relative;
+    }
+    iframe {
+      width: 100%;
+    }
+  }
+  .scinforaddress {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    &__item {
+      .content {
+        margin-top: 18px;
+        margin-bottom: 24px;
+        p {
+          font-size: var(--fs-14);
+          line-height: var(--lh-24);
+          font-family: lr;
+        }
+      }
+    }
+    @include xxs {
+      .container-small {
+        flex-direction: column;
+        align-items: initial;
+        gap: 30px;
+      }
+    }
+  }
+  .sccontact {
+    --max-width-left: 870px;
+    margin-bottom: 50px;
+    .container-small {
+      gap: 65px;
+    }
+    &__left {
+      max-width: var(--max-width-left);
+      width: 100%;
+      p {
+        font-size: var(--fs-14);
+        line-height: var(--lh-24);
+        font-family: lr;
+        margin-top: 16px;
+      }
+      .formcontact {
+        .formgroup {
+          &:nth-child(5) {
+            grid-column: 1/3;
+            height: 200px;
+          }
+        }
+      }
+    }
+    .imgthumb {
+      aspect-ratio: 385/419;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    @include maxW(1024px) {
+      --max-width-left: 600px;
+    }
+    @include sm {
+      --max-width-left: 100%;
+      .container-small {
+        flex-direction: column;
+      }
+      .imgthumb {
+        width: 100%;
+      }
+    }
+    @include xxs {
+      &__left {
+        .formcontact {
+          grid-template-columns: repeat(1, 1fr);
+          .formgroup {
+            &:nth-child(5) {
+              grid-column: initial;
+            }
+          }
+        }
+      }
+    }
+  }
+}
