@@ -245,44 +245,6 @@ function scrollToSection() {
 }
 scrollToSection();
 
-// // Register Form
-// function registerForm() {
-//   const btnSignUp = document.querySelector(
-//       ".header .header__top .header__right .btnaccount"
-//     ),
-//     // btnmob = document.querySelector(".menumobile .header__menu .btnmob"),
-//     register = document.querySelector(".register"),
-//     btnClose = document.querySelector(
-//       ".register .register__inner .register__inner-items .iconclose"
-//     ),
-//     overlay = document.querySelector(".register__overlay"),
-//     body = document.querySelector("body");
-//   // show
-//   function showRegisterForm() {
-//     register.classList.add("active");
-//     body.classList.add("--disable-scroll");
-//   }
-
-//   btnSignUp.addEventListener("click", function () {
-//     showRegisterForm();
-//   });
-//   // btnmob.addEventListener("click", function () {
-//   //   showRegisterForm();
-//   // });
-//   // remove
-//   function hideRegisterForm() {
-//     register.classList.remove("active");
-//     body.classList.remove("--disable-scroll");
-//   }
-//   btnClose.addEventListener("click", function () {
-//     hideRegisterForm();
-//   });
-//   overlay.addEventListener("click", function () {
-//     hideRegisterForm();
-//   });
-// }
-// registerForm();
-
 // Handle Icon Password
 function handleShowPassword() {
   const togglePassword = document.querySelectorAll(".eye");
